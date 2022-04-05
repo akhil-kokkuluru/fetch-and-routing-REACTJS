@@ -1,0 +1,56 @@
+.contentBg {
+  width: 80%;
+  border: 2px solid #8e8e8e;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+.titleImage {
+  width: 100%;
+}
+.topic {
+  font-size: 13px;
+  color: #8e8e8e;
+  font-family: 'Roboto';
+  font-weight: 400;
+  align-self: flex-start;
+}
+.titlecss {
+  font-size: 16px;
+
+  font-family: 'Roboto';
+
+  align-self: flex-start;
+}
+.profileContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+}
+.avatarCss {
+  width: 33px;
+  border-radius: 20px;
+}
+.authorName {
+  font-size: 15px;
+  color: #8e8e8e;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.linkContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .linkContainer {
+    width: 60%;
+  }
+}
