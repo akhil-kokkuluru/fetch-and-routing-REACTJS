@@ -24,7 +24,7 @@ const BlogList = props => {
         <h1 className="titlecss">{modifiedData.title}</h1>
         <div className="profileContainer">
           <img
-            alt="profilePic"
+            alt="profile"
             className="avatarCss"
             src={modifiedData.avatarUrl}
           />
